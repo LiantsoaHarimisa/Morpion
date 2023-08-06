@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Morpion</title>
+</head>
+<body id="body">
+    <div id= "principale">
+        <h1>Morpion !</h1>
+        <br>
+        <form method="GET" id="form">
+            <label for="joueur1"> Joueur 1</label>
+            <input type="text" id="joueur1">
+            <br> <br>
+            <label for="joueur2"> Joueur 2</label>
+            <input type="text" id="joueur2">
+            <br><br>
+            <input class = "bouton" type="submit" value="Commencer le jeu">
+        </form>
+    </div>
+    <div id="tableau">    
+        <h1>Vous jouez à Morpion</h1>
+        <table id="table">
+        </table>
+        
+        <div id="score" style="margin-left: 11%;">
+            <h3 id="Score1" style="display: inline-block;"> </h3>
+            <h3 style="float: left; width: 80px;" id="j1"></h3>
+            <br>
+            <h3 id="Score2" style="display: inline-block;"> </h3>
+            <h3 style="float: left; width: 80px;" id="j2"></h3>
+            
+            
+        </div>
+        
+        <button id="Recommencer">Recommencer</button>
+    </div>
+</body>
+</html>
